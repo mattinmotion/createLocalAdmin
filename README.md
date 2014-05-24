@@ -3,7 +3,7 @@ createLocalAdmin
 
 A big thanks goes out to Rich Trouton, Greg Neagle, Ben Toms, Tim Sutton, and the people at the MacEnterprise mailing list. Through the help of all these people I was able to piece together this project.
 
-The goal here is to check the user that is logging in against AD and a defined list of groups that should get administrator rights. If the user is a member of one of the defined AD groups then the user will become a local administrator. This will allow a user that is off your network to retain administrator rights.
+The goal here is to check the logged in user against AD and a defined list of groups that should get administrator rights. If the user is a member of one of the defined AD groups then the user will become a local administrator. This will allow a user that is off your network to retain administrator rights.
 
 com.company.getCurrentUser.plist is a LaunchAgent that runs at login and calls the getCurrentUser.sh script.
 
