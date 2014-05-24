@@ -17,11 +17,11 @@ createManagementFolders.sh checks to see if the /Library/.Management/ directory 
 
 The expected directory structure from the scripts are as follows:
 
-/Library/.Management/
-/Library/.Management/Triggers/
-/Library/.Management/Logs/
-/Library/LaunchAgents/com.company.CurrentUser.plist
-/Library/LaunchDaemons/com.company.makeCurrentUserAdmin.plist
-/Library/Scripts/.Company_Startup/
-/Library/Scripts/.Company_Startup/getCurrentUser.sh
-/Library/Scripts/.Company_Startup/makeCurrentUserAdmin.sh
+/Library/.Management/ <br />
+/Library/.Management/Triggers/ <br />
+/Library/.Management/Logs/ <br />
+/Library/LaunchAgents/com.company.CurrentUser.plist <br />
+/Library/LaunchDaemons/com.company.makeCurrentUserAdmin.plist <br />
+/Library/Scripts/.Company_Startup/ <br />
+/Library/Scripts/.Company_Startup/getCurrentUser.sh <br />
+/Library/Scripts/.Company_Startup/makeCurrentUserAdmin.sh <br />
