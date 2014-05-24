@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Define the directories being creating for the launch commands
+LM="/Library/.Management/"
+folders="${LM} ${LM}Triggers ${LM}Logs /Library/Scripts/.Company_Startup"
+
+#Checks to see if the /Library/.Management directory exists. If it doesn't the directories are created.
+if [ -d "${LM}" ]; 
+then
+	echo "The directories already exist!"
+	exit
+else
+	for newfolder in $folders; do
+		mkdir $newfolder
+	done
+
+#Setting the permissions so that all users can write to the Triggers and Log folders
+	find ${LM} -type d -exec chmod 777 {} \;
+	
+fi
