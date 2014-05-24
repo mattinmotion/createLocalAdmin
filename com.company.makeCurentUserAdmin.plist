@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.company.makeCurentUserAdmin</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>sh</string>
+		<string>/Library/Scripts/.Company_Startup/makeCurrentUserAdmin.sh</string>
+	</array>
+	<key>WatchPaths</key>
+    <array>
+    	<string>/Library/.Management/Triggers/currentuser.txt</string>
+    </array>
+    <key>StandardErrorPath</key>
+		<string>/Library/.Management/Logs/makeCurrentUserAdmin_err.log</string>
+	<key>StandardOutPath</key>
+		<string>/Library/.Management/Logs/makeCurrentUserAdmin.log</string>
+</dict>
+</plist>
