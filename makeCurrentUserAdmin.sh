@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Grabs the currently logged in user from the getCurrentUser.sh script
-CU=$(</Library/Management/Triggers/currentuser.txt)
+CU=$(</Library/.Management/Triggers/currentuser.txt)
 
 #Define the AD groups that will get Administrator Rights
 AG="dynAllStaff dynO-09 dynO-10 dynO-11 dynO-12"
